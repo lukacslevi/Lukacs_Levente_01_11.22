@@ -1,0 +1,2 @@
+vonatok=[]
+ido=[]
