@@ -31,3 +31,12 @@ def vonatKiir():
 def idoKiir():
     for i in range(len(vonatok)):
         print(f'\t{i+1}. {vonatok[i]}: {ido[i]}')
+        
+def ujSzerelveny():
+    system('cls')
+    print('-------ÚJ EREDMÉNYEK--------')
+    bekertVonat=input('Név: ')
+    bekertIdo=input('Érkezés: ')
+    vonatok.append(bekertVonat)
+    ido.append(bekertIdo)
+    input('Sikeres felvétel.')

@@ -1,4 +1,4 @@
-from functions import menu, fajlBetoltes, vonatKiir, idoKiir
+from functions import menu, fajlBetoltes, vonatKiir, idoKiir, ujSzerelveny
 from os import system
 
 fajlBetoltes()
@@ -13,3 +13,5 @@ while valasztas!='0':
         print('----SZERELVÉNYEK KILISTÁZÁSA----')
         idoKiir()
         input()
+    elif valasztas=='3':
+        ujSzerelveny()
