@@ -9,5 +9,6 @@ def menu():
     print('1 - Személyvonatok')
     print('2 - Szerelvények kilistázása')
     print('3 - Új szerelvény felvétele')
-    print('4 - Szerelvény törlése')
+    print('4 - Szerelvények mentése fájlba')
+    print('5 - Szerelvény törlése a menetrendből')
     return input('Választás: ')
