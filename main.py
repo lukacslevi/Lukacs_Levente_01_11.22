@@ -1,4 +1,4 @@
-from functions import menu, fajlBetoltes
+from functions import menu, fajlBetoltes, vonatKiir
 from os import system
 
 fajlBetoltes()
@@ -6,3 +6,8 @@ fajlBetoltes()
 valasztas=''
 while valasztas!='0':
     valasztas=menu()
+    if valasztas=='1':
+        vonatKiir()
+    elif valasztas=='2':
+        system('cls')
+        print('----SZERELVÉNYEK KILISTÁZÁSA----')

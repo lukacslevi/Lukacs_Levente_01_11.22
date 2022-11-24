@@ -20,3 +20,10 @@ def fajlBetoltes():
         vonatok.append(darabolt[0])
         ido.append(float(darabolt[1]))
     file.close()
+    
+def vonatKiir():
+    system('cls')
+    print('--------SZEMÉLYVONATOK--------')
+    for vonat in vonatok:
+        print(f'\t{vonat}')
+    input()
