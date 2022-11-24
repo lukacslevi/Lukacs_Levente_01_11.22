@@ -12,3 +12,11 @@ def menu():
     print('4 - Szerelvények mentése fájlba')
     print('5 - Szerelvény törlése a menetrendből')
     return input('Választás: ')
+
+def fajlBetoltes():
+    file=open(fajlnev,'r',encoding='utf-8')
+    for row in file:
+        darabolt=row.strip().split(';')
+        nevek.append(darabolt[0])
+        ugrasok.append(float(darabolt[1]))
+    file.close()
