@@ -18,7 +18,7 @@ def fajlBetoltes():
     for row in file:
         darabolt=row.strip().split(';')
         vonatok.append(darabolt[0])
-        ido.append(float(darabolt[1]))
+        ido.append(darabolt[1])
     file.close()
     
 def vonatKiir():
