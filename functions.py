@@ -27,3 +27,7 @@ def vonatKiir():
     for vonat in vonatok:
         print(f'\t{vonat}')
     input()
+    
+def idoKiir():
+    for i in range(len(vonatok)):
+        print(f'\t{i+1}. {vonatok[i]}: {ido[i]}')
