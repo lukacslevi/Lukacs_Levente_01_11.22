@@ -17,6 +17,6 @@ def fajlBetoltes():
     file=open(fajlnev,'r',encoding='utf-8')
     for row in file:
         darabolt=row.strip().split(';')
-        nevek.append(darabolt[0])
-        ugrasok.append(float(darabolt[1]))
+        vonatok.append(darabolt[0])
+        ido.append(float(darabolt[1]))
     file.close()
