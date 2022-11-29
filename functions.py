@@ -46,7 +46,7 @@ def mentesFajlba():
     for i in range(len(vonatok)):
         if i>0:
             file.write('\n')
-        file.write(f'{vonatok[i]},{ido[i]}\n')
+        file.write(f'{vonatok[i]};{ido[i]}')
     file.close()
     
 def vonatokTorlese():
