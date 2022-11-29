@@ -44,7 +44,7 @@ def ujSzerelveny():
 def mentesFajlba():
     file=open(fajlnev,'w',encoding='utf-8')
     for vonat in vonatok:
-        file.write(vonat+'\n')
+        file.write(vonat+";"+ido+'\n')
     file.close()
     input('Sikeres mentés...')
     
