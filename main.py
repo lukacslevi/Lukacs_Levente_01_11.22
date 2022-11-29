@@ -1,4 +1,4 @@
-from functions import menu, fajlBetoltes, vonatKiir, idoKiir, ujSzerelveny, mentesFajlba
+from functions import menu, fajlBetoltes, vonatKiir, idoKiir, ujSzerelveny, mentesFajlba, vonatokTorlese
 from os import system
 
 fajlBetoltes()
@@ -21,4 +21,6 @@ while valasztas!='0':
     elif valasztas=='4':
         system('cls')
         mentesFajlba()
-        
+    elif valasztas=='5':
+        system('cls')
+        vonatokTorlese()    

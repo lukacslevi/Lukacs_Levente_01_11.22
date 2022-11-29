@@ -47,3 +47,9 @@ def mentesFajlba():
         file.write(vonat+'\n')
     file.close()
     input('Sikeres mentés...')
+    
+def vonatokTorlese():
+    vonatKiir()
+    torlendo=input('Melyik szerelvényt töröljük? Adja meg a sorszámát: ')
+    vonatok.pop(torlendo-1)
+    input('A szerelvény törlése sikeres volt...')

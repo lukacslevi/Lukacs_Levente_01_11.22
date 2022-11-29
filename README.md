@@ -54,5 +54,5 @@ A menetrendet módosítani lehet az alábbiak szerint:
         5. Kálmán Imre EN: 14:20
         6. Semmelweis EC: 16:40
  
- Melyik szerelvényt töröljük?:
+ Melyik szerelvényt töröljük? Adja meg a sorszámát:
  
