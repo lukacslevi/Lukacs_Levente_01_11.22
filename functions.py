@@ -43,13 +43,18 @@ def ujSzerelveny():
     
 def mentesFajlba():
     file=open(fajlnev,'w',encoding='utf-8')
-    for vonat in vonatok:
-        file.write(vonat+";"+ido+'\n')
+    for i in range(len(vonatok)):
+        if i>0:
+            file.write('\n')
+        file.write(f'{vonatok[i]},{ido[i]}\n')
     file.close()
-    input('Sikeres mentés...')
     
 def vonatokTorlese():
-    vonatKiir()
-    torlendo=input('Melyik szerelvényt töröljük? Adja meg a sorszámát: ')
-    vonatok.pop(torlendo-1)
-    input('A szerelvény törlése sikeres volt...')
+    system('cls')
+    print('------SZERELVÉNY TÖRLÉSE------')
+    idoKiir()
+    sSz=int(input('\nMelyik szerelvényt töröljük? Adja meg a sorszámát:'))
+    vonatok.pop(sSz-1)
+    ido.pop(sSz-1)
+    mentesFajlba()
+    input('Sikeres törlés.')
