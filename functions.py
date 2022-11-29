@@ -53,7 +53,7 @@ def vonatokTorlese():
     system('cls')
     print('------SZERELVÉNY TÖRLÉSE------')
     idoKiir()
-    sSz=int(input('\nMelyik szerelvényt töröljük? Adja meg a sorszámát:'))
+    sSz=int(input('\nMelyik szerelvényt töröljük? Adja meg a sorszámát: '))
     vonatok.pop(sSz-1)
     ido.pop(sSz-1)
     mentesFajlba()

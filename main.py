@@ -21,6 +21,7 @@ while valasztas!='0':
     elif valasztas=='4':
         system('cls')
         mentesFajlba()
+        input('Sikeres mentés...')
     elif valasztas=='5':
         system('cls')
         vonatokTorlese()    
