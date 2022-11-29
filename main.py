@@ -15,3 +15,5 @@ while valasztas!='0':
         input()
     elif valasztas=='3':
         ujSzerelveny()
+        
+        
