@@ -40,3 +40,10 @@ def ujSzerelveny():
     vonatok.append(bekertVonat)
     ido.append(bekertIdo)
     input('Sikeres felvétel.')
+    
+def mentesFajlba():
+    file=open(fajlnev,'w',encoding='utf-8')
+    for vonat in vonatok:
+        file.write(vonat+'\n')
+    file.close()
+    input('Sikeres mentés...')
