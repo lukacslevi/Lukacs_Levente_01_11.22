@@ -1,2 +1,3 @@
 vonatok=[]
 ido=[]
+keses=[]
